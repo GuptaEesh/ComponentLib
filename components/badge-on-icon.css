@@ -1,0 +1,29 @@
+/* Badge on icon */
+
+.notification-icon {
+    background-color: var(--primary-100);
+    border-radius: 8px;
+    box-shadow: 0 0 3px var(--primary-300);
+}
+
+.icon-with-badge {
+    display: inline-block;
+    position: relative;
+}
+
+.notification {
+    background-color: var(--secondary-200);
+    border-radius: 50%;
+    color: var(--white);
+    min-height: var(--size-12);
+    min-width: var(--size-12);
+    padding: 5px;
+    position: absolute;
+    right: 0;
+    top: -2px;
+}
+
+.mat {
+    transform: translate(30%, -35%);
+}
+
