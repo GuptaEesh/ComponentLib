@@ -1,0 +1,68 @@
+.sticked {
+    position: fixed;
+    top: 0;
+}
+
+.top-app-bar {
+    align-items: center;
+    background-color: var(--secondary-100);
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    width:100%;
+}
+
+.hamburger {
+    background-color: transparent;
+}
+
+.material-icons:hover {
+    cursor: pointer;
+}
+
+.title-flex {
+    flex: 1;
+}
+
+.name-for-topAppBar {
+    flex: 5;
+    justify-self: start;
+}
+
+.right-topapp-icons {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    margin: 2px var(--size-12) 0 0;
+}
+
+.dense {
+    height: var(--size-20);
+}
+
+.prominent {
+    align-items: flex-start;
+    box-sizing: border-box;
+    height: 9rem;
+}
+
+.prominent .name-for-topAppBar {
+    align-self: end;
+}
+.short .right-topapp-icons{
+    justify-content: flex-end;
+}
+.short .right-topapp-icons span:nth-child(2),
+.short .right-topapp-icons span:nth-child(3) {
+    display: none;
+}
+
+.short-collapsed {
+    border-bottom-right-radius: var(--size-08);
+    gap: var(--size-08);
+    width: 5rem;
+}
+
+.short-collapsed .name-for-topAppBar {
+    display: none;
+}
