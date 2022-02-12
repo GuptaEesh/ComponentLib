@@ -10,21 +10,19 @@
   --secondary-300: rgb(0, 122, 255);
   --green-50: rgb(134, 250, 151);
   --green-100: rgb(50, 215, 75);
- --green-200:rgb(13, 102, 27);
- --red-100: rgb(240, 155, 150);
+  --green-200: rgb(13, 102, 27);
+  --red-100: rgb(240, 155, 150);
   --red-400: rgb(255, 69, 58);
   --yellow-100: rgb(248, 238, 185);
   --yellow-400: rgb(235, 196, 3);
   --orange-400: rgb(255, 179, 66);
   --white: rgb(255, 255, 255);
-  --white-100:rgba(255,255,255,0.05);
-  --white-200:rgba(255,255,255,0.18);
+  --white-100: rgba(255, 255, 255, 0.05);
+  --white-200: rgba(255, 255, 255, 0.18);
   font-family: 'Montserrat', sans-serif;
-
-  
-/* sizes */
---size-08: 0.8rem;
---size-10:1.0rem;
+  /* sizes */
+  --size-08: 0.8rem;
+  --size-10: 1.0rem;
   --size-12: 1.2rem;
   --size-14: 1.4rem;
   --size-16: 1.6rem;
@@ -34,7 +32,7 @@
   --size-28: 2.8rem;
   --size-32: 3.2rem;
   --size-40: 4rem;
-/*font-weight*/
+  /*font-weight*/
   --text-light: 300;
   --text-normal: 400;
   --text-medium: 600;
@@ -42,3 +40,4 @@
   --text-bold: 800;
   --text-bolder: 900;
 }
+
