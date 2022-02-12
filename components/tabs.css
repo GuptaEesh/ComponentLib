@@ -1,0 +1,11 @@
+.black-bg{
+    background-color: var(--primary-400);
+}
+.nav-secondTabs .tab{
+    color: var(--white);
+}
+.selected-tab{
+    background-color: var(--secondary-200);
+    border-radius: 5px;
+}
+
