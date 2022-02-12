@@ -78,11 +78,9 @@ html .xxlg {
 }
 
 .glass:hover {
-
   background: rgba(48, 36, 36, 0.20);
   background-image: linear-gradient(to top, var(--secondary-50), var(--primary-100));
   transition: all 1s ease-in;
-
 }
 
 .material-icons.outlined {
@@ -118,13 +116,13 @@ a {
 }
 
 iframe {
-
   width: 100%;
   height: 10rem;
 }
 
-p{
+p {
   font-size: var(--size-08);
   line-height: var(--size-12);
   text-align: justify;
 }
+
