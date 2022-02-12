@@ -1,0 +1,19 @@
+.input-text {
+    border: 3px solid var(--secondary-100);
+    border-radius: 5px;
+    padding: 5px;
+    width: 15rem;
+}
+
+.input-text:focus {
+    box-shadow: 0 0 5px var(--secondary-300);
+    outline: none;
+}
+
+.check:focus:invalid {
+    background: url("https://assets.digitalocean.com/labs/icons/exclamation-triangle-fill.svg") no-repeat 95% 50%;
+    background-size: var(--size-12);
+    background-position-y: center;
+    border: 3px solid var(--red-400);
+    box-shadow: 0 0 5px var(--red-400);
+}
