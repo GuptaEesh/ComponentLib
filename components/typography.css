@@ -1,0 +1,98 @@
+/* Font - Weight*/
+.eg-typo{
+    display: flex;
+    flex-direction: column;
+    gap: var(--size-16);
+}
+.light {
+    font-weight: var(--text-light);
+}
+
+.regular {
+    font-weight: var(--text-normal);
+}
+
+.medium {
+    font-weight: var(--text-medium);
+}
+
+.semi-bold {
+    font-weight: var(--text-semi-bold);
+}
+
+.bold {
+    font-weight: var(--text-bold);
+}
+
+.bolder {
+    font-weight: var(--text-bolder);
+}
+
+/* Sizes */
+.size-12 {
+    font-size: var(--size-12);
+}
+
+.size-14 {
+    font-size: var(--size-14);
+}
+
+.size-16 {
+    font-size: var(--size-16);
+}
+
+.size-18 {
+    font-size: var(--size-18);
+}
+
+.size-20 {
+    font-size: var(--size-20);
+}
+
+.size-24 {
+    font-size: var(--size-24);
+}
+
+.size-28 {
+    font-size: var(--size-28);
+}
+
+.size-32 {
+    font-size: var(--size-32);
+}
+
+
+/* styles */
+
+.text-strike {
+    text-decoration: line-through;
+}
+
+.text-underline {
+    text-decoration: underline;
+}
+
+
+/* alignment */
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+/* Color */
+.text-blue{
+    color:var(--secondary-300);
+}
+
+@media all and (max-width:650px) {
+    .eg-typo p{
+        font-size: var(--size-12);
+    }
+}
