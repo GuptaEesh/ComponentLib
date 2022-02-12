@@ -1,0 +1,96 @@
+
+.eg-snackbar{
+    align-items: center;
+    background-image: linear-gradient(to bottom,var(--green-200),var(--red-400));
+    display: flex;
+    flex-wrap: wrap;
+    gap:var(--size-12);
+    justify-content: center ;
+    height: 5rem;
+}
+.snackbar {
+    align-items: center;
+    background-image: linear-gradient(to right,var(--secondary-200),var(--secondary-100),var(--secondary-300));
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: flex;
+    height: var(--size-28);
+    justify-content: center;
+    padding: 0 8px 0 8px;
+    width: 25rem;
+}
+
+.snackbar p {
+    flex: 3;
+}
+
+.snackbar .btn {
+    flex: 1;
+    padding: 0;
+}
+
+.baseline {
+    bottom: 0;
+    position: fixed;
+    display: none;
+}
+.baseline.show, .leading.show, .stacked-baseline.show, .stacked-leading.show{
+    display: flex;
+    z-index: 100;
+}
+.leading {
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    display: none;
+}
+
+.stacked-baseline {
+    flex-direction: column;
+    height: 5rem;
+    bottom: 0;
+    position: fixed;
+    display: none;
+}
+.stacked-baseline p, .stacked-leading p{
+    margin-top:10px;
+}
+.stacked-baseline .btn, .stacked-leading .btn {
+    padding: 0 var(--size-12);
+}
+.stacked-leading{
+    flex-direction: column;
+    height: 5rem;
+    bottom: 0;
+    left:0;
+    position: fixed;
+    display: none;
+}
+.snackbar-stacked-items {
+    align-self: flex-end;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width: 900px){
+   
+    .snackbar{
+        width:18rem;  
+    }
+   
+    .eg-snackbar{
+        height: 10rem;
+    }
+    
+}
+@media screen and (max-width: 500px){
+    .stacked-baseline,.baseline{
+        transform: translateX(10%);
+    }
+    .snackbar{
+        width: 15rem;
+    }
+    .eg-snackbar{
+        height: 14rem;
+    }
+}
