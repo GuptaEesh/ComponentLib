@@ -1,0 +1,1822 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Components for componentLibrary">
+    <meta name="keywords" content="Component-library,html,css,grid,flex">
+    <title>Component-Lib Exhibition</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="display.css" rel="stylesheet">
+    <link href="Attract.css" rel="stylesheet">
+    <link rel="icon" href="images/cover5.png">
+</head>
+
+<body>
+
+    <a id="come-to-top"></a>
+
+
+    <div class="eg-component-library ">
+
+        <header class="eg-site-nav nav-bar with-shadow">
+            <div class="nav-section-left">
+                <div class="condensed-menuBar">🕶</div>
+                <button class="secondary-link"><a href="index.html">Home</a></button>
+            </div>
+            <div class="logo-of-docs ">
+                <button class="secondary-link"><a href="index.html">Attr🔹ct</a></button>
+            </div>
+            <div class="nav-section-right">
+                <a href="https://github.com/GuptaEesh" target="_blank" rel="noopener" rel="noreferrer"><img
+                        class="img-xsm profile-avatar" src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+                        alt="Github icon"></a>
+                <a href="https://twitter.com/ra1711003010629" target="_blank" rel="noopener" rel="noreferrer"><img
+                        class="img-xsm profile-avatar" src="https://cdn-icons-png.flaticon.com/512/1051/1051382.png"
+                        alt="Twitter icon"></a>
+                <a href="https://webdevjourney.hashnode.dev/" target="_blank" rel="noopener" rel="noreferrer"><img
+                        class="img-xsm profile-avatar"
+                        src="https://cdn.hashnode.com/res/hashnode/image/upload/v1611902473383/CDyAuTy75.png?auto=compress"
+                        alt="hashnode icon"> </a>
+                <a href="https://www.linkedin.com/in/eesh-gupta-42673a144" target="_blank" rel="noopener"
+                    rel="noreferrer"><img class="img-xsm profile-avatar"
+                        src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="Linkedin icon"> </a>
+            </div>
+
+        </header><br>
+        <aside class="egNav-Lib">
+            <h1>Quick Navigation</h1>
+            <ul class="list-noneOrdered">
+
+                <li class="secondary-link">
+                    <a href="#come-for-alerts">Alert</a>
+                </li>
+                <li class="secondary-link">
+                    <a href="#come-for-avatars">Avatar</a>
+                </li>
+
+                <li class="secondary-link">
+                    <a href="#come-for-badges">Badge</a>
+                </li>
+                <li class="secondary-link">
+                    <a href="#come-for-buttons">Button</a>
+                </li>
+                <li class="secondary-link">
+                    <a href="#come-for-cards">Cards</a>
+                </li>
+                <li class="secondary-link">
+                    <a href="#come-for-chips">Chips</a>
+                </li>
+                <li class="secondary-link">
+                    <a href="#come-for-dialogues">Dialogues</a>
+                </li>
+                <li class="secondary-link">
+                    <a href="#come-for-drawer">Drawer</a>
+                </li>
+                <li class="secondary-link">
+                    <a href="#come-for-grid">Grids</a>
+                </li>
+                <li class="secondary-link">
+                    <a href="#come-for-images">Images</a>
+                </li>
+                <li class="secondary-link">
+                    <a href="#come-for-inputTypes">Input-Types</a>
+                </li>
+                <li class="secondary-link">
+                    <a href="#come-for-lists">Lists</a>
+                </li>
+                <li class="secondary-link">
+                    <a href="#come-for-navigation">Navigation</a>
+                </li>
+                <li class="secondary-link">
+                    <a href="#come-for-ratings">Ratings</a>
+                </li>
+                <li class="secondary-link">
+                    <a href="#come-for-slider">Sliders</a>
+                </li>
+                <li class="secondary-link">
+                    <a href="#come-for-snackBar">SnackBar</a>
+                </li>
+                <li class="secondary-link">
+                    <a href="#come-for-tabs">Tabs</a>
+                </li>
+                <li class="secondary-link">
+                    <a href="#come-for-topAppBar">Top-Bar</a>
+                </li>
+                <li class="secondary-link">
+                    <a href="#come-for-typography">Typography</a>
+                </li>
+
+
+
+            </ul>
+
+        </aside>
+        <main class="eg-components">
+
+            <a href="#come-to-top"><button class="reveal-button scroll-top">^</button></a>
+
+
+
+            <!-- Separate-Alerts -->
+            <a id="come-for-alerts">
+                <h2>Separate-Alerts</h2>
+            </a><br>
+            <ul class="list-noneOrdered component-desc text-left glass ">
+                <li>
+                    <p class="size-12 medium">Alerts are used to attract user's attention for important information
+                        without interrupting the user's flow.</p>
+                </li><br>
+                <ul class="list-noneOrdered">
+                    <li>
+                        <span class="regular md">Alerts are available in 4 types- danger alert, mild alert, neutral
+                            alert, success alert.Div is used in Alert i.e <code>&ltdiv&gt</code> tag is used.
+                            To use this alert just use class name <span class="text-blue bold">alert</span> and also add
+                            class according to alert type- <span class="text-blue bold"> danger-alert, mild-alert,
+                                neutral-alert, success-alert.</span> Also add a bold class to make the alert message
+                            clear to the user. (e.g.class="alert bold danger-alert"). The cross symbol snippet along
+                            with this alert box snippet can be copied from the below code snippet.
+                        </span>
+                    </li>
+                </ul>
+            </ul>
+            <div class="eg-alerts code-box large-box">
+                <section>
+                    <div class="bold alert danger-alert ">Caution! Danger Ahead <span
+                            class="text-center cross-symbol">x</span></div>
+                    <div class="bold alert mild-alert ">Some issue is interrupting!<span
+                            class="text-center cross-symbol">x</span>
+                    </div>
+                    <div class="bold alert neutral-alert ">Some changes in website encountered! <span
+                            class="text-center cross-symbol">x</span>
+                    </div>
+                    <div class="bold alert success-alert ">Hurray!! You achieved it. <span
+                            class="text-center cross-symbol">x</span></div>
+                </section>
+                <iframe src="https://carbon.now.sh/embed/FhROuMoq5LpHtXwY5NGv"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <!-- Avatar -->
+            <a id="come-for-avatars">
+                <h2>Avatar</h2>
+            </a><br>
+            <ul class="list-noneOrdered component-desc text-left glass">
+                <li>
+                    <p class="size-12 medium">Avatar can be used to show user's profile picture on profile information
+                        page, on navigation bar, in blogs grid items.</p>
+                </li><br>
+                <ul class="list-noneOrdered">
+                    <li>
+                        <span class="regular md">Avatar is available in 3 different sizes. Image is used in Avatar i.e
+                            <code>&ltimg&gt</code> tag is used.
+                            You need to include class <span class="text-blue bold">profile-avatar</span> for circular
+                            avatar and <span class="text-blue bold">profile-avatar-square</span> for squary-shaped
+                            avatar and for size add class <span class="text-blue bold">img-xsm, img-sm, img-md</span>
+                            (e.g. class="profile-avatar img-xsm" or class="profile-avatar-square img-xsm").
+                        </span>
+                    </li>
+                </ul>
+            </ul>
+            <div class="eg-avatar-types code-box">
+                <picture>
+                    <img class="profile-avatar img-xsm" alt="Avatar-image"
+                        src="https://www.w3schools.com/howto/img_avatar.png" />
+                    <img class="profile-avatar-square img-xsm" alt="Avatar-image"
+                        src="https://www.w3schools.com/howto/img_avatar.png" />
+
+                    <img class="profile-avatar img-sm" alt="Avatar-image"
+                        src="https://www.w3schools.com/howto/img_avatar.png" />
+                    <img class="profile-avatar-square img-sm" alt="Avatar-image"
+                        src="https://www.w3schools.com/howto/img_avatar.png" />
+
+                    <img class="profile-avatar img-md" alt="Avatar-image"
+                        src="https://www.w3schools.com/howto/img_avatar.png" />
+                    <img class="profile-avatar-square img-md" alt="Avatar-image"
+                        src="https://www.w3schools.com/howto/img_avatar.png" />
+                </picture>
+                <iframe src="https://carbon.now.sh/embed/TLvJ6ZVwXxzVV3x2utSs"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+            </div>
+            <!-- Badge on Avatar -->
+
+            <a id="come-for-badges">
+                <h2>Badge on Avatar</h2>
+            </a><br>
+            <ul class="list-noneOrdered component-desc text-left glass">
+                <li>
+                    <p class="size-12 medium">Badges are being used to display a notification count or status
+                        information.</p>
+                </li><br>
+                <ul class="list-noneOrdered">
+                    <li>
+                        <span class="regular md">We have 2 types of status badges(online and offline) that can be
+                            integrated with Avatars. And to show favourites or notification count, you can use
+                            notification badge. The same way text badge and button badge are also used.
+                            Check code below to copy the html part as it is.
+                        </span>
+                    </li>
+                </ul>
+            </ul>
+            <div class="eg-badge-on-avatar code-box">
+                <section>
+                    <div class="online-badge">
+                        <img class="profile-avatar img-xsm" alt="Online-avatar-image"
+                            src="https://www.w3schools.com/howto/img_avatar2.png">
+                        <hr class="green-dot">
+                    </div>
+
+                    <div class="offline-badge">
+                        <img class="profile-avatar img-xsm" alt="Offline-avatar-image"
+                            src="https://www.w3schools.com/w3images/avatar6.png">
+                        <hr class="red-dot">
+                    </div>
+                    <div class="online-badge">
+                        <img class="profile-avatar img-sm" alt="Online-avatar-image"
+                            src="https://www.w3schools.com/howto/img_avatar2.png">
+                        <hr class="green-dot">
+                    </div>
+
+                    <div class="offline-badge">
+                        <img class="profile-avatar img-sm" alt="Offline-avatar-image"
+                            src="https://www.w3schools.com/w3images/avatar6.png">
+                        <hr class="red-dot">
+                    </div>
+                    <div class="online-badge">
+                        <img class="profile-avatar img-md" alt="Online-avatar-image"
+                            src="https://www.w3schools.com/howto/img_avatar2.png">
+                        <hr class="green-dot">
+                    </div>
+
+                    <div class="offline-badge">
+                        <img class="profile-avatar img-md" alt="Offline-avatar-image"
+                            src="https://www.w3schools.com/w3images/avatar6.png">
+                        <hr class="red-dot">
+                    </div>
+                </section>
+                <iframe src="https://carbon.now.sh/embed/yCU1p6GZx2skTVWdB4Va"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <!-- Badge-on-buttons -->
+
+            <h3>Badge on button</h3>
+            <div class="eg-badge-on-button code-box">
+                <section>
+                    <div class="button-badge">
+                        <button class="primary btn">Badge-Button</button>
+                        <small class="text-center bolder badge-on-button left-buttonBadge sm">1</small></div>
+                    <div class="button-badge">
+                        <button class="primary btn">Click-hideBadge</button>
+                        <small class="text-center bolder badge-on-button right-buttonBadge sm">1</small></div>
+
+
+                </section>
+                <iframe src="https://carbon.now.sh/embed/yr6gVn4cwImIVIGuUX0Z"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <!-- Badge on icon -->
+
+            <h2>Badge on icon</h2>
+            <div class="eg-badge-on-icon code-box">
+                <section>
+                    <div class="icon-with-badge">
+                        <img class="notification-icon img-sm" alt="notification-icon"
+                            src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-bell-512.png"><small
+                            class="notification bolder text-center sm">1</small>
+                    </div>
+                    <div class="icon-with-badge">
+                        <img class="notification-icon img-md" alt="notification-icon"
+                            src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-bell-512.png"><small
+                            class="notification bolder text-center md">1</small>
+                    </div>
+
+                    <div class="icon-with-badge">
+                        <span class="material-icons outlined lg">favorite_border</span>
+                        <small class=" notification bolder text-center mat xsm">1</small>
+                    </div>
+                </section>
+                <iframe src="https://carbon.now.sh/embed/VzdagKvWdAsVysD7qpGU"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+            <!-- Badge-on-text -->
+
+            <h2>Badge on text</h2>
+            <div class="eg-badge-on-text code-box">
+                <section>
+                    <p class="text-badge">This is a text.<small class="badge-on-text text-center bolder xsm">1</small>
+                    </p>
+
+                    <p class="text-badge">This is a text with medium badge.<small
+                            class="badge-on-text text-center bolder medium-badge sm">1</small></p>
+
+                    <p class="text-badge">This is a text with large badge.<small
+                            class="badge-on-text text-center bolder large-badge md">1</small>
+                    </p>
+                </section>
+                <iframe src="https://carbon.now.sh/embed/RiWS7omDIvu8bzjUTz9Q"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+
+            <!-- Button-Types -->
+
+            <a id="come-for-buttons">
+                <h2>Button-Types</h2>
+            </a><br>
+            <ul class="list-noneOrdered component-desc text-left glass">
+                <li>
+                    <p class="size-12 medium">Buttons are also called as call to action. We have range of buttons and
+                        their states. You may use a hyperlink or button element and add respective classes, and you are
+                        good to go.</p>
+                </li><br>
+                <ul class="list-noneOrdered">
+                    <li>
+                        <span class="regular md">We have 4 types here, namely buttons, link-buttons, icon-buttons and
+                            reveal buttons. The buttons and reveal-buttons use <code>&ltbutton&gt</code> tag,
+                            link-buttons use <code>&lta&gt</code> tag with combination of <code>&ltbutton&gt</code> and
+                            <code>&ltdiv&gt</code> tags,icon-buttons use <code>&ltbutton&gt</code> tag with combination
+                            of <code>&ltimg&gt</code> and material-icons tags.
+                            Check code below to copy the html part as it is.
+                        </span>
+                    </li>
+                </ul>
+            </ul>
+            <div class="eg-buttons">
+                <div class="code-box small-box">
+                    <section>
+                        <button class="primary btn">Primary</button>
+                        <button class="secondary btn">Secondary</button>
+                        <button class="tertiary bold btn">Tertiary</button>
+                    </section>
+                    <iframe src="https://carbon.now.sh/embed/kz26AMN1gw69twUZkp1X"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <!-- Icon-Button -->
+                <h2>Icon-Button</h2>
+                <div class="code-box small-box">
+                    <section>
+                        <button class="icon-button icon-button-skyblue"><img
+                                src="https://cdn0.iconfinder.com/data/icons/messages-chat-smileys/24/messages-double-bubble-message-chat-conversation-512.png"
+                                alt="icon-button"></button>
+
+                        <button class="icon-button icon-button-purewhite"><img
+                                src="https://cdn0.iconfinder.com/data/icons/messages-chat-smileys/24/messages-double-bubble-message-chat-conversation-512.png"
+                                alt="icon-button"></button>
+
+                        <button class="icon-button icon-button-specialgrey"><img
+                                src="https://cdn0.iconfinder.com/data/icons/messages-chat-smileys/24/messages-double-bubble-message-chat-conversation-512.png"
+                                alt="icon-button"></button>
+                    </section>
+                    <iframe src="https://carbon.now.sh/embed/theYdOyPC4mXqpdZ1jwp"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <!-- Link-Button-Types -->
+                <h2>Link-Button-Types</h2>
+                <div class="code-box small-box">
+                    <section>
+                        <button class="primary-link secondary-link"><a href="">Selected</a></button>
+                        <button class="secondary-link"><a href="">Unselected</a></button>
+                    </section>
+                    <iframe src="https://carbon.now.sh/embed/vnGx9IRB0n5ToCAvfXO0"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <div class="code-box large-box">
+                    <div class="image-link-container">
+                        <a href=""><img class="image-link"
+                                src="https://5.imimg.com/data5/SD/GO/MY-37501971/car-accessories-500x500.jpg"
+                                alt="car-accessories"></a>
+                        <p class="image-link-info lg">Accessories</p>
+                    </div>
+                    <iframe src="https://carbon.now.sh/embed/0fATzJWVadVwuRfImtUI"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+
+
+                <!-- Reveal-Button -->
+
+                <h2>Reveal-Button</h2>
+                <div class="code-box small-box">
+                    <section>
+                        <button class="reveal-button text-center">+</button>
+                        <button class="reveal-button text-center">^</button>
+                    </section>
+                    <iframe src="https://carbon.now.sh/embed/nCdxdaT6iMfmzmKv2J5w"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+                <!-- Special-Icon-Button -->
+                <div class="code-box small-box">
+                    <section>
+                        <button class="special-icon-button"><span class="material-icons outlined">
+                                favorite_border
+                            </span></button>
+                        <button class="special-icon-button"><span class="material-icons outlined">
+                                share
+                            </span></button>
+                        <button class="special-icon-button"><span class="material-icons outlined">
+                                more_vert
+                            </span></button>
+                    </section>
+                    <iframe src="https://carbon.now.sh/embed/s9tDz9vWCiyLwiaT57bx"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+            </div>
+
+
+            <!-- Card-grid -->
+            <a id="come-for-cards">
+                <h2>Cards</h2>
+            </a><br>
+            <ul class="list-noneOrdered component-desc text-left glass larger-box">
+                <li>
+                    <p class="size-12 medium">Card are used to show user related data collectively, like product
+                        details.</p>
+                </li><br>
+                <ul class="list-noneOrdered">
+                    <li>
+                        <span class="regular md">The interesting part is that the html format is same for all cards. For
+                            using our vertical and horizontal cards you just need to add classes - <span
+                                class="bold text-blue">eg-card card-one, eg-card card-two, eg-card card-three, eg-card
+                                card-four, eg-card card-five, eg-card card-landscape-one, eg-card card-landscape-two,
+                                eg-card card-landscape-three.</span> For getting a text over image just add <code>&lth2
+                                class="text-over-image"&gtPerformance&lt/h2&gt</code> below img tag in the given html
+                            format. Furthermore, if you want the coming-soon card then you need to wrap whole card
+                            content in a <code>&ltdiv class="full-card-shadowed"&gt -----------card html---------------
+                                &ltp class="text-over-card bold lg"&gtComing Soon&lt/p&gt&lt/div&gt</code>
+                            Copy below code and put your desired text and image and you are good to go.
+                        </span>
+                    </li>
+                </ul>
+            </ul>
+            <div class="cards-grid">
+                <!-- Card-1 -->
+                <div class="eg-card card-one">
+                    <header class="card-header-text bold">Lamborghini Aventador<br>
+                        <small class="sm">by Eesh Gupta</small>
+                    </header>
+
+                    <img class="card-image"
+                        src="https://cdn.motor1.com/images/mgl/4JyZA/s1/lamborghini-aventador-lp-780-4-ultimae.webp"
+                        alt="Lamborghini Aventador">
+
+                    <main class="card-body">
+                        <p>The Aventador has been created to anticipate the future, as demonstrated by the use of
+                            innovative
+                            technology, including a V12 engine and the extensive use of carbon fiber.</p>
+                    </main>
+                    <footer class="card-footer-icons">
+                        <span class="card-primary-footer eg-buttons">
+                            <button class="tertiary md bold">Read</button>
+                            <button class="tertiary md bold">Bookmark</button>
+                        </span>
+                        <span class="card-secondary-footer eg-buttons">
+                            <button class="special-icon-button"><span class="material-icons outlined md">
+                                    favorite_border
+                                </span></button>
+                            <button class="special-icon-button"><span class="material-icons outlined md">
+                                    share
+                                </span></button>
+                            <button class="special-icon-button"><span class="material-icons outlined md">
+                                    more_vert
+                                </span></button>
+                        </span>
+                    </footer>
+                </div>
+
+                <!-- Card-2 -->
+
+                <div class="eg-card card-two">
+
+                    <header class="card-header-text bold">Lamborghini Huracán<br>
+                        <small class="sm">by Eesh Gupta</small>
+                    </header>
+
+                    <img class="card-image"
+                        src="https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/model/huracan/evo_rwd/gallery/2020_02/gallery-4.jpg"
+                        alt="Lamborghini Huracán">
+
+                    <main class="card-body">
+                        <p>This is how the first model of the Lamborghini Huracán was born. More performance, more
+                            control, more innovation. The Huracán is equipped with a powerful V10 engine and the latest
+                            technologies to perform at its absolute best.</p>
+                    </main>
+                    <footer class="card-footer-icons">
+                        <span class="card-primary-footer eg-buttons">
+                            <button class="tertiary md bold">Read</button>
+                            <button class="tertiary md bold">Bookmark</button>
+                        </span>
+                        <span class="card-secondary-footer eg-buttons">
+                            <button class="special-icon-button"><span class="material-icons outlined md">
+                                    favorite_border
+                                </span></button>
+                            <button class="special-icon-button"><span class="material-icons outlined md">
+                                    share
+                                </span></button>
+                            <button class="special-icon-button"><span class="material-icons outlined md">
+                                    more_vert
+                                </span></button>
+                        </span>
+                    </footer>
+                </div>
+
+                <!-- Card-3 -->
+
+                <div class="eg-card card-three">
+
+                    <header class="card-header-text bold">Lamborghini Urus<br>
+                        <small class="sm">by Eesh Gupta</small>
+                    </header>
+
+                    <img class="card-image"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoIlrukeJRMvioHY50iAEgYU46N-yBWpVmCA&usqp=CAU"
+                        alt="Lamborghini Urus">
+                    <h2 class="text-over-image">Performance</h2>
+                    <main class="card-body">
+                        <p><strong>Lamborghini Urus</strong> is the world’s first Super Sport Utility Vehicle, in which
+                            luxury, sportiness and performance meet comfort and versatility. It offers best-in-class
+                            driving dynamics, alongside its unmistakable elegance of design.</p>
+                    </main>
+                    <footer class="card-footer-icons">
+                        <span class="card-primary-footer eg-buttons">
+                            <button class="tertiary md bold">Read</button>
+                            <button class="tertiary md bold">Bookmark</button>
+                        </span>
+                        <span class="card-secondary-footer eg-buttons">
+                            <button class="special-icon-button"><span class="material-icons outlined md">
+                                    favorite_border
+                                </span></button>
+                            <button class="special-icon-button"><span class="material-icons outlined md">
+                                    share
+                                </span></button>
+                            <button class="special-icon-button"><span class="material-icons outlined md">
+                                    more_vert
+                                </span></button>
+                        </span>
+                    </footer>
+                </div>
+
+                <!-- Card-4 -->
+                <div class="eg-card card-four">
+
+                    <header class="card-header-text bold">Lamborghini Sián FKP37<br>
+                        <small class="sm">by Eesh Gupta</small>
+                    </header>
+
+                    <img class="card-image"
+                        src="https://cdn-ds.com/blogs-media/sites/94/2020/12/23211704/Lamborghini-SiC3A1n-green-front-view_o-1038x375-1-1.jpg"
+                        alt="Lamborghini Sián FKP 37">
+
+                    <main class="card-body">
+                        <p>The Sián FKP 37 is the first super sports car powered by a V12 engine and hybrid technology
+                            based on supercapacitors. Its powerful V12 engine, coupled with electric boost, creates an
+                            unrivaled gem of engineering and technology.</p>
+                    </main>
+                    <footer class="card-footer-icons">
+                        <span class="card-primary-footer eg-buttons">
+                            <button class="tertiary md bold">Read</button>
+                            <button class="tertiary md bold">Bookmark</button>
+                        </span>
+                        <span class="card-secondary-footer eg-buttons">
+                            <button class="special-icon-button"><span class="material-icons outlined md">
+                                    favorite_border
+                                </span></button>
+                            <button class="special-icon-button"><span class="material-icons outlined md">
+                                    share
+                                </span></button>
+                            <button class="special-icon-button"><span class="material-icons outlined md">
+                                    more_vert
+                                </span></button>
+                        </span>
+                    </footer>
+
+                </div>
+
+
+                <!-- Card-5 -->
+                <div class="full-card-shadowed">
+                    <div class="eg-card card-five">
+                        <header class="card-header-text bold">Lamborghini Countach<br>
+                            <small class="sm">by Eesh Gupta</small>
+                        </header>
+
+                        <img class="card-image"
+                            src="https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/countach/hb/countach_hp%20%281%29.jpg"
+                            alt="Lamborghini Countach">
+
+                        <main class="card-body">
+                            <p>Lamborghini Countach is making headlines again with a limited-series hybrid supercar
+                                celebrating the
+                                visionary design that revolutionized modern sports cars forever and laid the foundations
+                                of
+                                the
+                                Lamborghini legacy. </p>
+                        </main>
+                        <footer class="card-footer-icons">
+                            <span class="card-primary-footer eg-buttons">
+                                <button class="tertiary md">Read</button>
+                                <button class="tertiary md">Bookmark</button>
+                            </span>
+                            <span class="card-secondary-footer eg-buttons">
+                                <button class="special-icon-button"><span class="material-icons outlined md">
+                                        favorite_border
+                                    </span></button>
+                                <button class="special-icon-button"><span class="material-icons outlined md">
+                                        share
+                                    </span></button>
+                                <button class="special-icon-button"><span class="material-icons outlined md">
+                                        more_vert
+                                    </span></button>
+                            </span>
+                        </footer>
+
+                    </div>
+                    <p class="text-over-card bold lg">Coming Soon</p>
+                </div>
+                <!-- Card-6 -->
+
+                <div class="eg-card card-landscape-one">
+
+                    <header class="card-header-text bold">Lamborghini Terzo Millennio<br>
+                        <small class="sm">by Eesh Gupta</small></header>
+
+                    <img class="card-image"
+                        src="https://cdn.motor1.com/images/mgl/pnBmr/s1/lamborghini-terzo-millennio.webp"
+                        alt="Lamborghini Terzo Millennio">
+
+                    <main class="card-body">
+                        <p>Dictating the requirements of the third millennium, the Terzo Millennio combines energy
+                            efficiency and innovative materials to forge a path in the electric super sports car
+                            segment, guaranteeing the purest driving experience. </p>
+                    </main>
+                    <footer class="card-footer-icons">
+                        <span class="card-primary-footer eg-buttons">
+                            <button class="tertiary md bold">Read</button>
+                            <button class="tertiary md bold">Bookmark</button>
+                        </span>
+                        <span class="card-secondary-footer eg-buttons">
+                            <button class="special-icon-button"><span class="material-icons outlined md">
+                                    favorite_border
+                                </span></button>
+                            <button class="special-icon-button"><span class="material-icons outlined md">
+                                    share
+                                </span></button>
+                            <button class="special-icon-button"><span class="material-icons outlined md">
+                                    more_vert
+                                </span></button>
+                        </span>
+                    </footer>
+                </div>
+
+                <!-- Card-7 -->
+
+                <div class="eg-card card-landscape-two">
+
+                    <header class="card-header-text bold">Lamborghini Asterion<br>
+                        <small class="sm">by Eesh Gupta</small>
+                    </header>
+
+                    <img src="https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/concept/asterion/gallery/Lamborghini-Asterion-03.jpg"
+                        alt="Lamborghini Asterion">
+
+                    <main class="card-body">
+                        <p>The Asterion carries with it the stylistic features and the advanced engineering solutions
+                            that characterize Lamborghini, complementing them with an innovative hybrid technology.</p>
+                    </main>
+                    <footer class="card-footer-icons">
+                        <span class="card-primary-footer eg-buttons">
+                            <button class="tertiary md bold">Read</button>
+                            <button class="tertiary md bold">Bookmark</button>
+                        </span>
+                        <span class="card-secondary-footer eg-buttons">
+                            <button class="special-icon-button"><span class="material-icons outlined md">
+                                    favorite_border
+                                </span></button>
+                            <button class="special-icon-button"><span class="material-icons outlined md">
+                                    share
+                                </span></button>
+                            <button class="special-icon-button"><span class="material-icons outlined md">
+                                    more_vert
+                                </span></button>
+                        </span>
+                    </footer>
+                </div>
+
+                <!-- Card-8 -->
+
+                <div class="eg-card card-landscape-three">
+
+                    <header class="card-header-text bold">Lamborghini Estoque<br>
+                        <small class="sm">by Eesh Gupta</small>
+                    </header>
+
+                    <img src="https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/concept/estoque/gallery/Lamborghini-Estoque-02.jpg"
+                        alt="Lamborghini Estoque">
+                    <h2 class="text-over-image"><i>Prestazione</i></h2>
+                    <main class="card-body">
+                        <p>The Estoque concept car is a four-door super sports car that enhances the tradition of the
+                            brand with totally new versatility. Suited for daily driving, it is the perfect match for a
+                            multi-faceted lifestyle.</p>
+                    </main>
+                    <footer class="card-footer-icons">
+                        <span class="card-primary-footer eg-buttons">
+                            <button class="tertiary md bold">Read</button>
+                            <button class="tertiary md bold">Bookmark</button>
+                        </span>
+                        <span class="card-secondary-footer eg-buttons">
+                            <button class="special-icon-button"><span class="material-icons outlined md">
+                                    favorite_border
+                                </span></button>
+                            <button class="special-icon-button"><span class="material-icons outlined md">
+                                    share
+                                </span></button>
+                            <button class="special-icon-button"><span class="material-icons outlined md">
+                                    more_vert
+                                </span></button>
+                        </span>
+                    </footer>
+                </div>
+
+            </div>
+            <div class="code-box">
+                <p>
+                    <h1>Code for Card</h1>
+                </p>
+                <iframe src="https://carbon.now.sh/embed/78ew0hMAGmWQJrd1D2xK"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+            </div>
+
+            <!-- Chips -->
+            <a id="come-for-chips">
+                <h2>Chips</h2>
+            </a><br>
+            <ul class="list-noneOrdered component-desc text-left glass">
+                <li>
+                    <p class="size-12 medium">Chips are compact elements that represent an input, attribute, or action.
+                    </p>
+                </li><br>
+                <ul class="list-noneOrdered">
+                    <li>
+                        We have 2 types of chips based on color. <ul class="list-circleUnordered">
+                            <li>Colored</li>
+                            <li>Gray</li>
+                        </ul> and 2 types of chips based on position. <ul class="list-circleUnordered">
+                            <li>Simple</li>
+                            <li>Stacked</li>
+                        </ul>
+                        For stacked chips replace <span class="text-blue bold">eg-chips</span> with <span
+                            class="text-blue bold">eg-stacked</span> and for colored chips use <span
+                            class="text-blue bold">color-1/color-2/color-3/color-4</span> in the span inside div
+                        alongside the class <span class="text-blue bold">chip</span>. Refer the code below.
+                    </li>
+                </ul>
+            </ul>
+            <div class="code-box large-box">
+                <div class="eg-chips">
+                    <span class="chip md"><span class="material-icons outlined">
+                            sports_soccer
+                        </span> Lemon<span class="cross-for-chips text-center md">x</span></span>
+                    <span class="chip md"><span class="material-icons outlined">
+                            sports_soccer
+                        </span> Lime<span class="cross-for-chips text-center md">x</span></span>
+                    <span class="chip md"><span class="material-icons outlined">
+                            sports_soccer
+                        </span> Apple<span class="cross-for-chips text-center md">x</span></span>
+                    <span class="chip md"><span class="material-icons outlined">
+                            sports_soccer
+                        </span> Orange<span class="cross-for-chips text-center md">x</span></span>
+                </div>
+                <div class="eg-chips">
+                    <span class="chip md color-1"><span class="material-icons outlined">
+                            sports_soccer
+                        </span> Lemon<span class="cross-for-chips text-center md">x</span></span>
+                    <span class="chip md color-2"><span class="material-icons outlined">
+                            sports_soccer
+                        </span> Lime<span class="cross-for-chips text-center md">x</span></span>
+                    <span class="chip md color-3"><span class="material-icons outlined">
+                            sports_soccer
+                        </span> Apple<span class="cross-for-chips text-center md">x</span></span>
+                    <span class="chip md color-4"><span class="material-icons outlined">
+                            sports_soccer
+                        </span> Orange<span class="cross-for-chips text-center md">x</span></span>
+                </div>
+                <div class="eg-stacked">
+                    <span class="chip md color-1"><span class="material-icons outlined">
+                            sports_soccer
+                        </span> Lemon<span class="cross-for-chips text-center md">x</span></span>
+                    <span class="chip md color-2"><span class="material-icons outlined">
+                            sports_soccer
+                        </span> Lime<span class="cross-for-chips text-center md">x</span></span>
+                    <span class="chip md color-3"><span class="material-icons outlined">
+                            sports_soccer
+                        </span> Apple<span class="cross-for-chips text-center md">x</span></span>
+                    <span class="chip md color-4"><span class="material-icons outlined">
+                            sports_soccer
+                        </span> Orange<span class="cross-for-chips text-center md">x</span></span>
+                </div>
+                <iframe src="https://carbon.now.sh/embed/j1ZPADrgGGQdnKVgW9Ja"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+            <!-- Dialogues -->
+            <a id="come-for-dialogues">
+                <h3>Dialogues</h3>
+            </a><br>
+            <ul class="list-noneOrdered component-desc text-left glass">
+                <li>
+                    <p class="size-12 medium">A dialog box is a temporary window an application creates to retrieve user
+                        input.</p>
+                </li><br>
+                <ul class="list-noneOrdered">
+                    <li>
+                        There are 2 types of dialog <ul class="list-circleUnordered">
+                            <li> Simple Dialog</li>
+                            <li> Action Sheet</li>
+                        </ul>
+                        Refer the code below for both the types.
+                    </li>
+                </ul>
+            </ul>
+            <div class="eg-dialogues">
+                <div class="code-box large-box">
+                    <div class="dialogue-container ">
+                        <div class="dialogue-content">
+                            <p class="md bolder">Use location service?</p>
+                            <small class="md lighter">Let us help apps determine your location.</small>
+
+                        </div>
+                        <button class="tertiary bold btn blue-button md border-between-button">Cancel</button>
+                        <button class="tertiary bold btn blue-button md">Action</button>
+                    </div>
+                    <iframe src="https://carbon.now.sh/embed/2B6T3f9nRvLiucoS6nUY"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+                <div class="code-box large-box">
+                    <div class="action-sheet ">
+                        <div class="primary-options-action">
+                            <button class="secondary btn sm">Use location service?</button>
+                            <button class="secondary btn blue-button">Turn on speed boost</button>
+                            <button class="secondary btn blue-button ">Remind me later</button>
+                        </div>
+                        <button class="secondary btn blue-button last-action-item bold">Cancel</button>
+                    </div>
+                    <iframe src="https://carbon.now.sh/embed/pWncyUjsWtrnn5S1Us2U"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </div>
+
+            <!-- Drawers -->
+            <a id="come-for-drawer">
+                <h3>Drawer-Notification</h3>
+            </a><br>
+            <ul class="list-noneOrdered component-desc text-left glass">
+                <li>
+                    <p class="size-12 medium">Drawers are used for navigating side menus in a section. You must have
+                        seen them while using you gmail.</p>
+                </li><br>
+                <ul class="list-noneOrdered">
+                    <li>
+                        <span class="regular md">We have 3 forms for the drawers. A simple drawer navigation box, a
+                            permanent drawer navigation with multiple levels of info and a dismissable drawer.
+                            Copy below code and put your desired text and image and you are good to go.
+                        </span>
+                    </li>
+                </ul>
+            </ul>
+            <div class="eg-drawers">
+                <div class="drawer-navigation">
+                    <div class="title-for-navigation">
+                        <h2>Title</h2>
+                    </div>
+
+                    <aside class="contents-for-navigation">
+                        <a href="" class="content-navs text-center md"><span class="material-icons outlined ">
+                                inbox
+                            </span>Inbox</a>
+                        <a href="" class="content-navs text-center md"><span class="material-icons outlined ">
+                                star_purple500
+                            </span>
+                            Star</a>
+                        <a href="" class="content-navs text-center md"><span class="material-icons outlined ">
+                                mail
+                            </span>Sent Mail</a>
+                        <a href="" class="content-navs text-center md"><span class="material-icons outlined ">
+                                drafts
+                            </span>Drafts</a>
+                    </aside>
+                </div>
+                <div class="code-box">
+                    <h2>Code for simple drawer</h2>
+                    <iframe src="https://carbon.now.sh/embed/HDiboFvGxGEuOJJwGfss"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+                <br>
+                <div class="drawer-permanent">
+                    <div class="drawer-navigation ">
+                        <div class="title-for-navigation">
+                            <h2>Title</h2>
+                        </div>
+
+                        <aside class="contents-for-navigation">
+                            <a href="" class="content-navs text-center md"><span class="material-icons outlined ">
+                                    inbox
+                                </span>Inbox</a>
+                            <a href="" class="content-navs text-center md"><span class="material-icons outlined ">
+                                    star_purple500
+                                </span>
+                                Star</a>
+                            <a href="" class="content-navs text-center md"><span class="material-icons outlined ">
+                                    mail
+                                </span>Sent Mail</a>
+                            <a href="" class="content-navs text-center md"><span class="material-icons outlined ">
+                                    drafts
+                                </span>Drafts</a>
+                            <small class="md">Options</small>
+                            <ul class="list-noneOrdered">
+                                <li>
+                                    <a href="" class="content-navs text-center md"><span
+                                            class="material-icons outlined ">
+                                            inbox
+                                        </span>Inbox</a></li>
+                                <li>
+                                    <a href="" class="content-navs text-center md"><span
+                                            class="material-icons outlined ">
+                                            star_purple500
+                                        </span>
+                                        Star</a></li>
+                                <li>
+                                    <a href="" class="content-navs text-center md"><span
+                                            class="material-icons outlined ">
+                                            mail
+                                        </span>Sent Mail</a></li>
+                                <li>
+                                    <a href="" class="content-navs text-center md"><span
+                                            class="material-icons outlined ">
+                                            drafts
+                                        </span>Drafts</a></li>
+                            </ul>
+                        </aside>
+
+                    </div>
+                    <main class="text-for-contentnavs">
+                        <h2 class="title-flex"><button class="hamburger "><span class="material-icons outlined lg">
+                                    menu
+                                </span></button>Permanent Drawer</h2>
+                        <p>The Lamborghini Gallardo has been the Italian automaker’s most successful car to date with a
+                            total production of 14,002 units in its 10-year life span.The Lamborghini Gallardo has been
+                            the
+                            Italian automaker’s most successful car to date with a total production of 14,002 units in
+                            its
+                            10-year life span.The Lamborghini Gallardo has been the Italian automaker’s most successful
+                            car
+                            to date with a total production of 14,002 units in its 10-year life span.</p>
+                    </main>
+                </div>
+
+                <br>
+                <div class="drawer-permanent dismissable">
+                    <div class="drawer-navigation">
+                        <div class="title-for-navigation">
+                            <h2>Title</h2>
+                        </div>
+
+                        <aside class="contents-for-navigation">
+                            <a href="" class="content-navs text-center md"><span class="material-icons outlined ">
+                                    inbox
+                                </span>Inbox</a>
+                            <a href="" class="content-navs text-center md"><span class="material-icons outlined ">
+                                    star_purple500
+                                </span>
+                                Star</a>
+                            <a href="" class="content-navs text-center md"><span class="material-icons outlined ">
+                                    mail
+                                </span>Sent Mail</a>
+                            <a href="" class="content-navs text-center md"><span class="material-icons outlined ">
+                                    drafts
+                                </span>Drafts</a>
+
+                        </aside>
+                    </div>
+
+                    <main class="text-for-contentnavs">
+
+                        <h2 class="title-flex"><button class="hamburger"><span class="material-icons outlined lg">
+                                    menu
+                                </span></button> Dismissable Drawer</h2>
+                        <p>The Lamborghini Gallardo has been the Italian automaker’s most successful car to date with a
+                            total production of 14,002 units in its 10-year life span.The Lamborghini Gallardo has been
+                            the
+                            Italian automaker’s most successful car to date with a total production of 14,002 units in
+                            its
+                            10-year life span.The Lamborghini Gallardo has been the Italian automaker’s most successful
+                            car
+                            to date with a total production of 14,002 units in its 10-year life span.</p>
+                    </main>
+                </div>
+
+
+            </div>
+            <div class="code-box">
+                <h2>Code for permanent and dismissable drawer</h2>
+                <iframe src="https://carbon.now.sh/embed/BAMalpePX6cgJraJCfQx"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+
+            </div>
+
+            <!-- Grid-Simplified -->
+            <a id="come-for-grid">
+                <h2>Grids</h2>
+            </a><br>
+            <ul class="list-noneOrdered component-desc text-left glass">
+                <li>
+                    <p class="size-12 medium">Grids present a very powerful layout capability. Grids can be used
+                        anywhere and everywhere.</p>
+                </li><br>
+                <ul class="list-noneOrdered">
+                    <li>
+                        We have presented 2 types here:
+                        <ul class="list-circleUnordered">
+                            <li>2-Grid Layout</li>
+                            <li>3-Grid Layout</li>
+                        </ul>For starting with 2-grid layout, use class <span class="text-blue bold">grid-two</span> in
+                        the div and you can put any 2 HTML elements inside the div. For starting with 3-grid layout, use
+                        class <span class="text-blue bold">grid-three</span> in the div and you can put any 3 HTML
+                        elements inside the div.
+                        Refer the code below.
+                    </li>
+                </ul>
+            </ul>
+            <div class="eg-grid-types">
+                <div class="grid-two">
+                    <img src="images/cover1.jpg" alt="Mountain" class="img-responsive">
+                    <p>Liked this Image! You can checkout cards to put instead of this image.<br>
+                        <button class="secondary btn"><a href="#come-for-cards">Explore</a></button> </p>
+                </div>
+                <br>
+                <div class="grid-three">
+                    <p>3-grid System.<br> You can put anything in place of images.</p>
+                    <img src="images/cover2.jpg" alt="Mountain" class="img-responsive">
+                    <img src="images/cover3.jpg" alt="Mountain" class="img-responsive">
+                </div>
+
+
+            </div>
+            <div class="code-box">
+                <h2>Grid System</h2>
+                <iframe src="https://carbon.now.sh/embed/6y1CcPhtvFkhLVdQaxGb"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+            <!-- Images -->
+            <a id="come-for-images">
+                <h3>Images</h3>
+            </a><br>
+            <ul class="list-noneOrdered component-desc text-left glass">
+                <li>
+                    <p class="size-12 medium">Images given here are responsive to fit the parent's width, and also can
+                        be customised to be round shaped.</p>
+                </li><br>
+                <ul class="list-noneOrdered">
+                    <li>
+                        <span class="regular md">For images <code>&ltimg&gt</code> tag is used.
+                            You can add class<span class="text-blue bold"> img-responsive</span> to make your image fit
+                            the width of container. It's height will get adjusted by keeping the aspect ratio same. If
+                            you want the same to be done for a circular image use <span class="text-blue bold">
+                                img-circular</span> tag (e.g. class="img-responsive" or class="img-circular").
+                        </span> <br>Also if you dont want the border outside your image just remove the
+                        <code>&ltpicture&gt</code> tag.
+                    </li>
+                </ul>
+            </ul>
+            <div class="eg-images">
+
+                <picture class="eg-img-container">
+                    <img src="images/cover.jpg" alt="responsive image" class=" img-responsive">
+                </picture>
+
+                <picture class="eg-img-container">
+                    <img src="images/cover.jpg" alt="responsive image" class="img-circular">
+                </picture>
+            </div>
+            <div class="code-box ">
+                <p>
+                    <h1>Code for Images</h1>
+                </p>
+                <iframe src="https://carbon.now.sh/embed/pUG6Bxt5Hzu7CDHiUmxA"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <!-- Input-text -->
+            <a id="come-for-inputTypes">
+                <h3>Input-Text-Types</h3>
+            </a><br>
+            <ul class="list-noneOrdered component-desc text-left glass">
+                <li>
+                    <p class="size-12 medium">Inputs are used anywhere and everywhere. They provide a handy way for
+                        search bars, input boxes, pasword checkers and what not.</p>
+                </li><br>
+                <ul class="list-noneOrdered">
+                    <li>
+                        <span class="regular md">For inputs <code>&ltinput&gt</code> tag is used.
+                            You can add class<span class="text-blue bold"> input-text</span> to use the given input box.
+                            If you want passsword check to be done for the input use <span class="text-blue bold">
+                                check</span> class along with "input-text". (e.g. class="input-text md" or
+                            class="input-text check md").
+                            Copy below code and put your desired text and image and you are good to go.
+                        </span>
+                    </li>
+                </ul>
+            </ul>
+            <div class="eg-inputs code-box">
+                <section>
+                    <input type="text" class="input-text md" placeholder="Search...">
+
+                    <input class="input-text check md" type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,}"
+                        maxlength="15" placeholder="Password[A a .*\ minlen-4 ]" />
+                </section>
+                <iframe src="https://carbon.now.sh/embed/KtX8n1CqHWF1IDQl3gyv"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+            <!-- lists -->
+            <a id="come-for-lists">
+                <h2>Lists</h2>
+            </a><br>
+            <ul class="list-noneOrdered component-desc text-left glass">
+                <li>
+                    <p class="size-12 medium">Lists are the go-to system for documentation purposes, defining categories
+                        etc.</p>
+                </li><br>
+                <ul class="list-noneOrdered">
+                    <li>
+                        We have 4 types of lists.<ul class="list-circleUnordered">
+                            <li>Unordered</li>
+                            <li>Ordered</li>
+                            <li>List without bullets, numbers etc.</li>
+                            <li>Inline List</li>
+                            <li>Cards in list</li>
+                        </ul> Refer the code below for each of them.
+                    </li>
+                </ul>
+            </ul>
+            <div class="eg-lists">
+                <div class="list-container-type">
+                    <ul class="list-bulletUnordered">
+                        <li>List Item1</li>
+                        <li>List Item2</li>
+                        <li>List Item3</li>
+                    </ul>
+                    <ul class="list-squareUnordered">
+                        <li>List Item1</li>
+                        <li>List Item2</li>
+                        <li>List Item3</li>
+                    </ul>
+                    <ul class="list-circleUnordered">
+                        <li>List Item1</li>
+                        <li>List Item2</li>
+                        <li>List Item3</li>
+                    </ul>
+
+                </div>
+                <div class="code-box small-box">
+                    <h2 class="list-desc bolder">Unordered List</h2>
+                    <iframe src="https://carbon.now.sh/embed/sQ1rXCojloiEghcgBMYW"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <div class="list-container-type ordered">
+                    <ol class="list-numberOrdered" reversed>
+                        <li>List Item1</li>
+                        <li>List Item2</li>
+                        <li>List Item3</li>
+                    </ol>
+                    <ol class="list-numberOrdered">
+                        <li>List Item1</li>
+                        <li>List Item2</li>
+                        <li>List Item3</li>
+                    </ol>
+                    <ol class="list-lowerromanOrdered">
+                        <li>List Item1</li>
+                        <li>List Item2</li>
+                        <li>List Item3</li>
+                    </ol>
+                    <ol class="list-upperromanOrdered">
+                        <li>List Item1</li>
+                        <li>List Item2</li>
+                        <li>List Item3</li>
+                    </ol>
+                    <ol class="list-lowercaseOrdered">
+                        <li>List Item1</li>
+                        <li>List Item2</li>
+                        <li>List Item3</li>
+                    </ol>
+                    <ol class="list-uppercaseOrdered">
+                        <li>List Item1</li>
+                        <li>List Item2</li>
+                        <li>List Item3</li>
+                    </ol>
+                </div>
+                <div class="code-box small-box">
+                    <h2 class="list-desc bolder">Ordered List</h2>
+                    <iframe src="https://carbon.now.sh/embed/JlflL7niGBf95OwZnypJ"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+                <div class="list-container-type">
+                    <ul class="list-noneOrdered" reversed>
+                        <li>List Item1</li>
+                        <li>List Item2</li>
+                        <li>List Item3</li>
+                    </ul>
+
+                </div>
+                <div class="code-box small-box">
+                    <h2 class="list-desc bolder">List without bullets,numbers or any other characters.</h2>
+                    <iframe src="https://carbon.now.sh/embed/MtrtS2foDNB4PzIBc2kY"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+                <div class="list-container-type">
+                    <ul class="list-inlineOrdered list-noneOrdered">
+                        <li class="list-inline">List Item1</li>
+                        <li class="list-inline">List Item2</li>
+                        <li class="list-inline">List Item3</li>
+                    </ul>
+
+                </div>
+                <div class="code-box small-box">
+                    <h2 class="list-desc bolder">List with inline-styling</h2>
+                    <iframe src="https://carbon.now.sh/embed/3CZEyKYN7eBWvI1rh99P"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+                <div class="list-container-type">
+                    <ul class="list-noneOrdered">
+                        <li>
+                            <div class="eg-card card-landscape-one">
+
+                                <header class="card-header-text bold">Lamborghini Terzo Millennio<br>
+                                    <small class="sm">by Eesh Gupta</small></header>
+
+                                <img class="card-image"
+                                    src="https://cdn.motor1.com/images/mgl/pnBmr/s1/lamborghini-terzo-millennio.webp"
+                                    alt="Lamborghini Terzo Millennio">
+
+                                <main class="card-body">
+                                    <p>Dictating the requirements of the third millennium, the Terzo Millennio combines
+                                        energy efficiency and innovative materials to forge a path in the electric super
+                                        sports car segment, guaranteeing the purest driving experience. </p>
+                                </main>
+
+                            </div>
+                        </li>
+                        <li>
+                            <div class="eg-card card-landscape-two">
+
+                                <header class="card-header-text bold">Lamborghini Asterion<br>
+                                    <small class="sm">by Eesh Gupta</small>
+                                </header>
+
+                                <img src="https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/concept/asterion/gallery/Lamborghini-Asterion-03.jpg"
+                                    alt="Lamborghini Asterion">
+
+                                <main class="card-body">
+                                    <p>The Asterion carries with it the stylistic features and the advanced engineering
+                                        solutions that characterize Lamborghini, complementing them with an innovative
+                                        hybrid technology.</p>
+                                </main>
+
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </div>
+                <div class="code-box small-box">
+                    <h2 class="list-desc bolder">Cards-Stacked-in-List-format</h2>
+                    <iframe src="https://carbon.now.sh/embed/im3mrmJcuXGWwzmeKDd5"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+            </div>
+
+            <!-- Nav-Bar -->
+            <a id="come-for-navigation">
+                <h2>Navigation</h2>
+            </a><br>
+            <ul class="list-noneOrdered component-desc text-left glass large-box">
+                <li>
+                    <p class="size-12 medium">Navigation bar is used to navigate through the web apps or websites.</p>
+                </li><br>
+                <ul class="list-noneOrdered">
+                    <li>
+                        Navigation has 4 parts:
+                        <ul class="list-circleUnordered">
+                            <li>Brand logo- Displayed in L,XL devices and hidden on M,S,XS devices</li>
+                            <li>Brand Title- Displayed in M,S,XS devices and hidden on L,XL devices</li>
+                            <li>Navigation links- Displayed in L,XL device and inside brand logo in M,S,XS devices</li>
+                            <li>Search bar</li>
+                        </ul> We have given the model only. You can add the above mentioned things as the main objective
+                        is to provide you with the layout. For getting a shadow around your nav-bar replace class<span
+                            class="text-blue bold"> nav-bar</span> with <span class="text-blue bold"> nav-bar
+                            with-shadow</span>. Refer the code.
+                    </li>
+                </ul>
+            </ul>
+            <div class="eg-navBar code-box large-box">
+                <section>
+                    <header class="nav-bar">
+                        <div class="nav-section-left">
+                            <span class="material-icons outlined ">
+                                polymer
+                            </span>
+                            <button class="secondary-link"><a>Learn</a></button>
+                            <button class="secondary-link"><a>Teach</a></button>
+                        </div>
+                        <input type="text" class="input-text md" placeholder="Search...">
+                        <div class="nav-section-right ">
+                            <button class="special-icon-button"><span class="material-icons outlined lg ">
+                                    person
+                                </span></button>
+                            <button class="special-icon-button"><span class="material-icons outlined lg ">
+                                    favorite_border
+                                </span></button>
+                            <button class="special-icon-button"><span class="material-icons outlined lg">
+                                    cast_for_education
+                                </span> </button>
+                        </div>
+                    </header><br>
+                    <header class="nav-bar with-shadow">
+                        <div class="nav-section-left">
+                            <span class="material-icons outlined ">
+                                polymer
+                            </span>
+                            <button class="secondary-link"><a>Learn</a></button>
+                            <button class="secondary-link"><a>Teach</a></button>
+                        </div>
+                        <input type="text" class="input-text md" placeholder="Search...">
+                        <div class="nav-section-right ">
+                            <button class="special-icon-button"><span class="material-icons outlined lg ">
+                                    person
+                                </span></button>
+                            <button class="special-icon-button"><span class="material-icons outlined lg ">
+                                    favorite_border
+                                </span></button>
+                            <button class="special-icon-button"><span class="material-icons outlined lg">
+                                    cast_for_education
+                                </span> </button>
+                        </div>
+                    </header>
+                </section>
+                <iframe src="https://carbon.now.sh/embed/frJm79whTaNxWu9y6I3R"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+            <!-- Star-Rating -->
+            <a id="come-for-ratings">
+                <h2>Ratings</h2>
+            </a><br>
+            <ul class="list-noneOrdered component-desc text-left glass">
+                <li>
+                    <p class="size-12 medium">Rating components can be used as in reviews section.</p>
+                </li><br>
+                <ul class="list-noneOrdered">
+                    <li>
+                        The rating component shown below comes with HTML as well as the JS implementation of the same.
+                        Refer the code below to directly push this in your website.
+                    </li>
+                </ul>
+            </ul>
+            <div class="rating code-box">
+                <section>
+                    <label>
+                        <input class="rating-star" type="checkbox">
+                        <span class="material-icons outlined lg rating-star-icon">
+                            star
+                        </span></label>
+                    <label>
+                        <input class="rating-star" type="checkbox">
+                        <span class="material-icons outlined lg rating-star-icon">
+                            star
+                        </span></label>
+                    <label>
+                        <input class="rating-star" type="checkbox">
+                        <span class="material-icons outlined lg rating-star-icon">
+                            star
+                        </span></label>
+                    <label>
+                        <input class="rating-star" type="checkbox">
+                        <span class="material-icons outlined lg rating-star-icon">
+                            star
+                        </span></label>
+                    <label>
+                        <input class="rating-star" type="checkbox">
+                        <span class="material-icons outlined lg rating-star-icon">
+                            star
+                        </span></label>
+                </section>
+                <iframe src="https://carbon.now.sh/embed/ldk3HYwOhvM6J6o8JCBF"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+            <!-- Slider -->
+            <a id="come-for-slider">
+                <h2>Sliders</h2>
+            </a><br>
+            <ul class="list-noneOrdered component-desc text-left glass">
+                <li>
+                    <p class="size-12 medium">Sliders are used to decide range for something like sound in videos, price
+                        in shopping sites, etc.</p>
+                </li><br>
+                <ul class="list-noneOrdered">
+                    <li>
+                        We have 3 types of sliders.<ul class="list-circleUnordered">
+                            <li>Custom Slider</li>
+                            <li>Custom Slider with symbol</li>
+                            <li>Disabled Slider</li>
+                        </ul> For disabling a slider use class <span class="text-blue bold">disabled</span> along with
+                        class <span class="text-blue bold">slider-container</span>. Refer the code below.
+                    </li>
+                </ul>
+            </ul>
+            <div class="eg-sliders code-box larger-box">
+                <section>
+                    <div class="slider-container">
+                        <label class="slider-track">
+                            <input class="slider" type="range" name="range" min="0" max="150" value="0" />
+                        </label>
+                    </div><br><br>
+                    <div class="slider-container ">
+                        <span class="material-icons outlined lg">
+                            volume_up
+                        </span>
+                        <label class="slider-track with-icon">
+                            <input class="slider" type="range" name="range" min="0" max="150" value="0" />
+                        </label>
+                    </div><br><br>
+                    <div class="slider-container disabled">
+                        <span class="material-icons outlined lg">
+                            volume_up
+                        </span>
+                        <label class="slider-track ">
+                            <input class="slider" type="range" name="range" min="0" max="150" value="0" disabled />
+                        </label>
+                    </div>
+                </section>
+                <iframe src="https://carbon.now.sh/embed/PZuFEgwpiq0qMG5XxkAQ"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+            <!-- Snackbar -->
+            <a id="come-for-snackBar">
+                <h3>Snack-Bar</h3>
+            </a><br>
+            <ul class="list-noneOrdered component-desc text-left glass ">
+                <li>
+                    <p class="size-12 medium">This component can be used for snackbar component. Snackbar is mostly used
+                        to show feedback message. Snackbar is used to show message that need user action.</p>
+                </li><br>
+                <ul class="list-noneOrdered">
+                    <li>
+                        There are 2 types of snackbar on basis of position:<ul class="list-squareUnordered">
+                            <li> Leading</li>
+                            <li> Baseline</li>
+                        </ul> and 2 types of snackbar on basis of orientation:<ul class="list-squareUnordered">
+                            <li> Simple</li>
+                            <li> Stacked</li>
+                        </ul>
+                        For simple snackbar use <span class="text-blue bold">baseline/leading</span> and for stacked
+                        snackbar use <span class="text-blue bold">stacked-baseline/stacked-leading</span> along with
+                        class <span class="text-blue bold">snackbar</span>.
+                        </span>
+                    </li>
+                </ul>
+            </ul>
+            <div class="eg-snackbar">
+                <button class="baseline-snackbar primary btn ">Baseline</button>
+                <button class="leading-snackbar primary btn ">Leading</button>
+                <button class="baseline-stackedSnackbar primary btn ">Baseline Stacked</button>
+                <button class="leading-stackedSnackbar primary btn ">Leading Stacked</button>
+                <div class=" snackbar baseline">
+                    <p class="size-12">Can't send. Please re-try.</p>
+                    <button class="tertiary btn md bolder">Retry</button>
+                    <span class="cross-symbol sm text-center">x</span>
+                </div>
+                <div class="snackbar leading">
+                    <p class="size-12">Can't send. Please re-try.</p>
+                    <button class="tertiary btn md bolder">Retry</button>
+                    <span class="cross-symbol sm text-center">x</span>
+                </div>
+
+                <div class=" snackbar stacked-baseline">
+                    <p class="size-12">Can't send. Try in 5 seconds. This is stacked.</p>
+                    <div class="snackbar-stacked-items">
+                        <button class="tertiary btn md bolder">Retry</button>
+                        <span class="cross-symbol sm text-center">x</span>
+                    </div>
+                </div>
+                <div class="snackbar stacked-leading">
+                    <p class="size-12">Can't send. Try in 5 seconds. This is stacked.</p>
+                    <div class="snackbar-stacked-items">
+                        <button class="tertiary btn md bolder">Retry</button>
+                        <span class="cross-symbol sm text-center">x</span>
+                    </div>
+                </div>
+
+            </div>
+            <div class="code-box">
+                <h2>Code for snackbar</h2>
+                <iframe src="https://carbon.now.sh/embed/Zr9hHwc4nXoT701qNZ6S"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+
+
+
+
+            <!-- Tabs -->
+            <a id="come-for-tabs">
+                <h3>Tabs</h3>
+            </a><br>
+            <ul class="list-noneOrdered component-desc text-left glass">
+                <li>
+                    <p class="size-12 medium">Tabs are used for navigation in sites.</p>
+                </li><br>
+                <ul class="list-noneOrdered">
+                    <li>
+                        We have given two types of tabs. Use <span class="text-blue bold">nav-firstTabs</span> class for
+                        1st type of tabs and use <span class="text-blue bold">nav-secondTabs</span> class for 2nd type
+                        of tabs.
+                        Refer the code below for both the types.
+                    </li>
+                </ul>
+            </ul>
+            <div class="eg-nav-tabs code-box large-box">
+                <div class="nav-firstTabs">
+                    <button class="secondary-link">
+                        <a class="tab lg">Tab1</a>
+                    </button>
+                    <button class="secondary-link">
+                        <a class="tab lg">Tab2</a>
+                    </button>
+                    <button class="secondary-link">
+                        <a class="tab lg">Tab3</a>
+                    </button>
+                    <button class="secondary-link">
+                        <a class="tab lg">Tab4</a>
+                    </button>
+                </div>
+                <div class="nav-secondTabs black-bg">
+                    <button class="secondary-link">
+                        <a class="tab lg">Tab1</a>
+                    </button>
+                    <button class="secondary-link">
+                        <a class="tab lg">Tab2</a>
+                    </button>
+                    <button class="secondary-link">
+                        <a class="tab lg">Tab3</a>
+                    </button>
+                    <button class="secondary-link">
+                        <a class="tab lg">Tab4</a>
+                    </button>
+                </div>
+                <iframe src="https://carbon.now.sh/embed/qSkWG97JhIg4CBKBtm80"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <br>
+
+            <!-- Top-App Bar -->
+            <a id="come-for-topAppBar">
+                <h3>Top-App Bar</h3>
+            </a><br>
+            <ul class="list-noneOrdered component-desc text-left glass ">
+                <li>
+                    <p class="size-12 medium">Top-App bar is used in various circumstances. This component is
+                        responsive.</p>
+                </li><br>
+                <ul class="list-noneOrdered">
+                    <li>
+                        All classes stated below should be added with class<span class="text-blue bold">
+                            top-app-bar</span>.
+                        <span class="regular md">We have 5 forms for the drawers. A fixed/standard drawer navigation
+                            box- for fixing top-app bar at the top of a window add a class <span
+                                class="text-blue bold">sticked</span> , a dense top bar(<span
+                                class="text-blue bold">dense</span>), a prominent bar(<span
+                                class="text-blue bold">prominent</span>) , a short bar(<span
+                                class="text-blue bold">short</span>) and a short-collapsed bar(<span
+                                class="text-blue bold">short short-collapsed</span>). (eg- class="top-app-bar sticked",
+                            class="top-app-bar dense", class="top-app-bar short").
+                            Copy below code and put your desired text and image and you are good to go.
+                        </span>
+                    </li>
+                </ul>
+            </ul>
+
+            <div class="eg-top-app-bar">
+                <!-- Add sticked class -->
+                <header class="top-app-bar">
+                    <button class="title-flex hamburger "><span class="material-icons outlined lg">
+                            menu
+                        </span></button>
+                    <span class="name-for-topAppBar">Fixed/Standard</span>
+                    <div class="right-topapp-icons">
+                        <span class="material-icons outlined lg">
+                            download
+                        </span>
+                        <span class="material-icons outlined lg">
+                            print
+                        </span>
+                        <span class="material-icons outlined lg">
+                            bookmark_border
+                        </span>
+                    </div>
+                </header>
+
+                <br>
+
+                <header class="top-app-bar dense">
+                    <button class="title-flex hamburger "><span class="material-icons outlined lg">
+                            menu
+                        </span></button>
+                    <span class="name-for-topAppBar">Dense</span>
+                    <div class="right-topapp-icons">
+                        <span class="material-icons outlined lg">
+                            download
+                        </span>
+                        <span class="material-icons outlined lg">
+                            print
+                        </span>
+                        <span class="material-icons outlined lg">
+                            bookmark_border
+                        </span>
+                    </div>
+                </header>
+
+                <br>
+
+                <header class="top-app-bar prominent">
+                    <button class="title-flex hamburger "><span class="material-icons outlined lg">
+                            menu
+                        </span></button>
+                    <span class="name-for-topAppBar">Prominent</span>
+                    <div class="right-topapp-icons">
+                        <span class="material-icons outlined lg">
+                            download
+                        </span>
+                        <span class="material-icons outlined lg">
+                            print
+                        </span>
+                        <span class="material-icons outlined lg">
+                            bookmark_border
+                        </span>
+                    </div>
+                </header>
+
+                <br>
+
+                <header class="top-app-bar short">
+                    <button class="title-flex hamburger "><span class="material-icons outlined lg">
+                            menu
+                        </span></button>
+                    <span class="name-for-topAppBar">Short</span>
+                    <div class="right-topapp-icons">
+                        <span class="material-icons outlined lg">
+                            download
+                        </span>
+                        <span class="material-icons outlined lg">
+                            print
+                        </span>
+                        <span class="material-icons outlined lg">
+                            bookmark_border
+                        </span>
+                    </div>
+                </header>
+
+                <br>
+
+                <header class="top-app-bar short short-collapsed">
+                    <button class="title-flex hamburger "><span class="material-icons outlined lg">
+                            menu
+                        </span></button>
+                    <span class="name-for-topAppBar">Short-Collapsed</span>
+                    <div class="right-topapp-icons">
+                        <span class="material-icons outlined lg">
+                            download
+                        </span>
+                        <span class="material-icons outlined lg">
+                            print
+                        </span>
+                        <span class="material-icons outlined lg">
+                            bookmark_border
+                        </span>
+                    </div>
+                </header>
+
+
+            </div>
+            <div class="code-box">
+                <h2>Code for Top-App-Bar</h2>
+                <iframe src="https://carbon.now.sh/embed/oJufSrVdE8zXG4Ee7TFk"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <br>
+            <!-- Top-App Bar -->
+            <a id="come-for-typography">
+                <h3>Typography</h3>
+            </a><br>
+            <ul class="list-noneOrdered component-desc text-left glass ">
+                <li>
+                    <p class="size-12 medium">Check out below texts.</p>
+                </li><br>
+                <ul class="list-noneOrdered">
+                    <li>
+                        <span class="regular md">The below mentioned p tags have various classes. You can attach these
+                            classes to any elmenet tag. Respective classnames are provided inside the brackets. We have
+                            provided typography acc to:<ul class="list-squareOrdered">
+                                <li>Font-Weight(light, regular, medium, semi-bold, bold, bolder)</li>
+                                <li>Font-Sizes(size-12, size-14, size-16, size-18, size-20, size-24, size-28, size-32)
+                                </li>
+                                <li>Font-Styles(text-strike,text-underline)</li>
+                                <li>Alignment(text-center,text-left,text-right)</li>
+                                <li>Color(text-blue)</li>
+                            </ul>
+                            Refer the code given.
+                        </span>
+                    </li>
+                </ul>
+            </ul><br>
+            <div class="eg-typo">
+
+                <p class="light size-28 text-left">This is paragraph.</p>
+                <p class="regular size-28 text-blue text-right">This is paragraph.</p>
+                <p class="semi-bold size-28">This is paragraph.</p>
+                <p class="light size-20 text-center">This is paragraph.</p>
+                <p class="regular size-20 text-blue text-right">This is paragraph.</p>
+                <p class="semi-bold size-20 text-center">This is paragraph.</p>
+                <p class="light size-12 ">This is paragraph.</p>
+                <p class="regular size-12 ">This is paragraph.</p>
+                <p class="semi-bold size-12 text-blue text-right">This is paragraph.</p>
+                <p class="semi-bold size-12 text-strike">This is paragraph.</p>
+                <p class="semi-bold size-12 text-underline">This is paragraph.</p>
+                <div class="code-box">
+                    <h2>Code for Typography</h2><iframe src="https://carbon.now.sh/embed/x4NxKB6mM8olYggvqylL"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </main>
+    </div>
+    <script src="./display.js"></script>
+</body>
+
+</html>
