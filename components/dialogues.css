@@ -1,0 +1,86 @@
+/* Dialogues */
+
+.dialogue-container {
+    background-color: var(--white);
+    border: 1px solid var(--primary-200);
+    border-radius: 12px;
+    box-sizing: border-box;
+    box-shadow: 0 0 8px var(--primary-200);
+    display: grid;
+    grid-template-rows: repeat(3, 3rem);
+    grid-template-columns: repeat(2, 1fr);
+    height: 10.3rem;
+    padding-top: var(--size-12);
+    width: 18rem;
+
+}
+
+.dialogue-content {
+    border-bottom: 1px solid var(--primary-200);
+    text-align: center;
+    grid-column: 1/-1;
+    grid-row: 1/3;
+    padding: 0 var(--size-24) var(--size-28) var(--size-24);
+}
+
+.dialogue-content p {
+    padding-left: var(--size-18);
+}
+
+.tertiary.blue-button,
+.secondary.blue-button {
+    color: var(--secondary-300);
+}
+
+.border-between-button {
+    border-right: 1px solid var(--primary-200);
+    border-radius: 0;
+    margin-top: 0;
+}
+
+.action-sheet {
+    border-radius: 8px;
+    box-shadow: 0 0 8px var(--primary-200);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 12rem;
+    width: 20rem;
+}
+
+.primary-options-action {
+    display: flex;
+    flex-direction: column;
+}
+
+.primary-options-action .secondary {
+    border: 0;
+    border-bottom: 1px solid var(--primary-200);
+    font-weight: bold;
+    height: var(--size-28);
+}
+
+.primary-options-action .secondary:nth-child(1) {
+    color: var(--primary-200);
+}
+
+.last-action-item {
+    border-radius: 10.8px;
+    height: var(--size-32);
+    margin-top: 10.8px;
+}
+@media screen and (max-width: 1240px){
+    .dialogue-container ,.action-sheet{
+        width: 20rem;
+       
+    }
+    .dialogue-container p,.action-sheet p{
+        font-size: medium;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 500px){
+    .dialogue-container ,.action-sheet{
+        width: 17rem;
+    }
+}
