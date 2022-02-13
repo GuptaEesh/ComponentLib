@@ -1,0 +1,36 @@
+.online-badge {
+    display: inline-block;
+    position: relative;
+}
+
+.green-dot {
+    background-color: var(--green-100);
+    border: 1px solid var(--primary-400);
+    border-radius: 50%;
+    box-shadow: 0 0 5px var(--green-100);
+    height: 12px;
+    margin: 0;
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 12px;
+}
+
+.offline-badge {
+    display: inline-block;
+    position: relative;
+}
+
+.red-dot {
+    background-color: var(--red-400);
+    border: 1px solid var(--primary-400);
+    border-radius: 50%;
+    box-shadow: 0 0 5px var(--red-400);
+    height: 12px;
+    margin: 0;
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 12px;
+}
+
