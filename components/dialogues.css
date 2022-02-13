@@ -12,7 +12,6 @@
     height: 10.3rem;
     padding-top: var(--size-12);
     width: 18rem;
-
 }
 
 .dialogue-content {
@@ -69,18 +68,26 @@
     height: var(--size-32);
     margin-top: 10.8px;
 }
-@media screen and (max-width: 1240px){
-    .dialogue-container ,.action-sheet{
+
+@media screen and (max-width: 1240px) {
+
+    .dialogue-container,
+    .action-sheet {
         width: 20rem;
-       
     }
-    .dialogue-container p,.action-sheet p{
+
+    .dialogue-container p,
+    .action-sheet p {
         font-size: medium;
         text-align: center;
     }
 }
-@media screen and (max-width: 500px){
-    .dialogue-container ,.action-sheet{
+
+@media screen and (max-width: 500px) {
+
+    .dialogue-container,
+    .action-sheet {
         width: 17rem;
     }
 }
+
