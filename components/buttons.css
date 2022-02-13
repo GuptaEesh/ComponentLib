@@ -4,7 +4,6 @@
     cursor: pointer;
     min-width: var(--size-12);
     padding: 3.2px var(--size-20);
-
 }
 
 .primary {
@@ -71,7 +70,6 @@
 }
 
 .image-link:hover {
-
     width: 13.5rem;
     transition: all 200ms ease-in;
 }
@@ -106,12 +104,10 @@
 
 .icon-button-purewhite {
     background-color: var(--white);
-
 }
 
 .icon-button-specialgrey {
     background-image: linear-gradient(to top, var(--primary-300), var(--white));
-
 }
 
 /* Special-icon-buttons */
@@ -127,7 +123,6 @@
     border-radius: 50%;
     color: var(--primary-400);
     cursor: pointer;
-
 }
 
 /* Reveal-buttons */
