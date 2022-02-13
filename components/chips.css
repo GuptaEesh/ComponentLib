@@ -1,0 +1,69 @@
+.eg-chips {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: var(--size-12);
+}
+
+.chip {
+    align-items: center;
+    background-color: var(--primary-100);
+    border-radius: var(--size-28);
+    box-shadow: 0 0 2px var(--primary-300);
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.cross-for-chips {
+    align-self: center;
+    background-color: var(--primary-100);
+    border-radius: 50%;
+    justify-self: end;
+    margin-left: 5px;
+    margin-top: 0;
+    width: var(--size-12);
+}
+
+.cross-for-chips:hover {
+    background-color: var(--primary-400);
+    color: var(--white);
+    cursor: pointer;
+}
+
+.color-1 {
+    background-color: var(--secondary-300);
+    box-shadow: 0 0 5px var(--secondary-300);
+    color: var(--white);
+}
+
+.color-2 {
+    background-color: var(--red-400);
+    box-shadow: 0 0 5px var(--red-400);
+    color: var(--white);
+}
+
+.color-3 {
+    background-color: var(--green-100);
+    box-shadow: 0 0 5px var(--green-100);
+    color: var(--primary-400);
+}
+
+.color-4 {
+    background-color: var(--yellow-400);
+    box-shadow: 0 0 5px var(--yellow-400);
+    color: var(--primary-400);
+}
+
+.eg-stacked {
+    display: flex;
+    flex-direction: column;
+}
+
+.eg-stacked .chip {
+    align-self: flex-start;
+    width: 15rem;
+}
+
