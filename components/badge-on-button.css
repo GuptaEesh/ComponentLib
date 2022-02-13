@@ -1,0 +1,23 @@
+.button-badge {
+    display: inline-block;
+    position: relative;
+    margin-right: var(--size-12);
+}
+
+.badge-on-button {
+    background-color: var(--secondary-300);
+    border-radius: 50%;
+    color: var(--white);
+    min-width: var(--size-12);
+    padding: 4px;
+    position: absolute;
+    top: 0;
+}
+.left-buttonBadge{
+    left: 0;
+    transform: translate(-30%,-30%);
+}
+.right-buttonBadge{
+    right: 0;
+    transform: translate(30%,-30%);
+}
