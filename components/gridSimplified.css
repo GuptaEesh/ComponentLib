@@ -9,12 +9,12 @@
 .grid-three p {
     align-self: center;
     justify-self: center;
-    padding-right: 0.5rem;
+    padding-right: var(--size-08);
 }
 
 .grid-two p button {
     margin-left: 4rem;
-    margin-top: 1rem;
+    margin-top: var(--size-12);
 }
 
 .grid-three {
