@@ -11,11 +11,13 @@
     min-width: var(--size-12);
     padding: 4px;
     position: absolute;
-    top: -9.6px;
+    top: 0;
 }
 .left-buttonBadge{
-    left: -9.6px;
+    left: 0;
+    transform: translate(-30%,-30%);
 }
 .right-buttonBadge{
-    right: -9.6px;
+    right: 0;
+    transform: translate(30%,-30%);
 }
