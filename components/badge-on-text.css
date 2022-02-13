@@ -15,22 +15,24 @@
     min-width: var(--size-12);
     padding: 2px;
     position: absolute;
-    right: -5px;
-    top: -10px;
+    right: 0;
+    top: 0;
+    transform: translate(50%,-50%);
 }
 
 .medium-badge {
     min-height: var(--size-12);
     min-width: 1rem;
     padding: 5px;
-    right: -5px;
-    top: -0.8rem;
+    right: 0;
+    top: 0;
 }
 
 .large-badge {
     min-height: var(--size-18);
     min-width: var(--size-16);
     padding: 8px;
-    right: -8px;
-    top: -1.2rem;
+    right: 0;
+    top: 0;
+    transform: translate(60%,-60%);
 }
