@@ -1,0 +1,39 @@
+/* Badge on text */
+
+.text-badge {
+    display: inline-flex;
+    margin-bottom: var(--size-12);
+    position: relative;
+    margin-right: var(--size-20);
+}
+
+.badge-on-text {
+    background-color: var(--secondary-300);
+    border-radius: 10px;
+    color: var(--white);
+    min-height: var(--size-12);
+    min-width: var(--size-12);
+    padding: 2px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translate(50%,-50%);
+}
+
+.medium-badge {
+    min-height: var(--size-12);
+    min-width: 1rem;
+    padding: 5px;
+    right: 0;
+    top: 0;
+}
+
+.large-badge {
+    min-height: var(--size-18);
+    min-width: var(--size-16);
+    padding: 8px;
+    right: 0;
+    top: 0;
+    transform: translate(60%,-60%);
+}
+
