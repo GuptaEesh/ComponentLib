@@ -1,0 +1,12 @@
+.profile-avatar {
+    border:2px solid var(--secondary-200);
+    border-radius: 50%;
+    box-shadow: 0 0 3px var(--primary-400);
+}
+
+.profile-avatar-square {
+    border:2px solid var(--secondary-200);
+    border-radius: 10px;
+    box-shadow: 0 0 3px var(--primary-400);
+}
+
