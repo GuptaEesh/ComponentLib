@@ -1,52 +1,61 @@
-.nav-bar{
+.nav-bar {
     align-items: center;
     background-color: var(--white);
     border-radius: 5px;
     display: flex;
     justify-content: space-between;
-    padding:var(--size-12);
+    padding: var(--size-12);
     height: 5rem;
-    
 }
-.nav-section-left{
+
+.nav-section-left {
     align-items: center;
     display: flex;
-    gap:10px;
-    padding-left:var(--size-20);
+    gap: 10px;
+    padding-left: var(--size-20);
 }
 
 
-.nav-section-right{
+.nav-section-right {
     align-items: center;
     display: flex;
-    gap:var(--size-16);
-    padding-right:var(--size-12);
+    gap: var(--size-16);
+    padding-right: var(--size-12);
 }
-.with-shadow{
-    box-shadow:0 0 8px var(--primary-200);
+
+.with-shadow {
+    box-shadow: 0 0 8px var(--primary-200);
 }
-@media screen and (max-width: 1240px){
-   .eg-navBar{
+
+@media screen and (max-width: 1240px) {
+    .eg-navBar {
         padding: 0;
-   }
-    .nav-bar{
-       width: 100vw;
-       padding: 0;
-   }
-   .nav-section-left{
-       gap:0;
-   }
-   .nav-section-right{
-       gap:7px;
-   }
-   
+    }
+
+    .nav-bar {
+        width: 100vw;
+        padding: 0;
+    }
+
+    .nav-section-left {
+        gap: 0;
+    }
+
+    .nav-section-right {
+        gap: 7px;
+    }
+
 }
-@media screen and (max-width: 600px){
-.nav-bar .input-text{
-    width:10rem;
-}}
-@media screen and (max-width: 400px){
-    .nav-bar .input-text{
-        width:5rem;
+
+@media screen and (max-width: 600px) {
+    .nav-bar .input-text {
+        width: 10rem;
     }
 }
+
+@media screen and (max-width: 400px) {
+    .nav-bar .input-text {
+        width: 5rem;
+    }
+}
+
