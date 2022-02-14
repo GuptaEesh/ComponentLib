@@ -1,15 +1,16 @@
-.rating-star-icon{
+.rating-star-icon {
     color: var(--primary-200);
 }
 
-.rating-star{
-    width: 0;
-    margin: 0;
-    height: 0;
-    opacity: 0;
+.rating-star {
+    display: none;
 }
 
-.rating-star:checked + .rating-star-icon{
+.rating-star-icon:hover {
+    color: var(--secondary-300);
+}
+
+.rating-star:checked+.rating-star-icon {
     color: var(--secondary-300);
 }
 
