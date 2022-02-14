@@ -1,0 +1,20 @@
+.eg-img-container {
+    background-color: var(--white);
+    border: 2px solid var(--secondary-200);
+    border-radius: 5px;
+    display: inline-block;
+    padding: 8px;
+}
+
+.img-responsive {
+    border-radius: 4px;
+    height: auto;
+    width: 90%;
+}
+
+.img-circular {
+    border-radius: 50%;
+    height: auto;
+    width: 80%;
+}
+
