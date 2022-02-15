@@ -89,7 +89,9 @@ let openAsideMenu=document.querySelector('.condensed-menuBar');
 let clickables=document.querySelectorAll('.list-noneOrdered .secondary-link');
 clickables.forEach(click=>{
     console.log(click);
-    click.addEventListener('click',()=>{   asideMenu.classList.toggle('show');
+    click.addEventListener('click',()=>{  
+        openAsideMenu.classList.toggle('rotate');
+         asideMenu.classList.toggle('show');
      document.querySelector('.eg-components').classList.toggle('hide');
 })
 })
