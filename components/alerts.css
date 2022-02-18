@@ -5,22 +5,15 @@
     align-items: center;
     border-radius: 5px; 
     display: flex;
+    justify-content: space-between;
     margin-bottom: 5px;
     max-width: 35rem;
     padding: var(--size-12);
 }
 
-.cross-symbol {
-    background-color: var(--primary-400);
-    border-radius: 50%;
-    box-shadow: 0 0 5px var(--primary-400);
-    color: var(--white);
-    margin-left: auto;
+.alert .cross-for-chips {
+    color: var(--primary-400);
     width: var(--size-12);
-}
-
-.cross-symbol:hover {
-    cursor: pointer;
 }
 
 .alert.danger-alert {
