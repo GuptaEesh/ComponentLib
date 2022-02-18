@@ -1,16 +1,16 @@
-
-.eg-snackbar{
+.eg-snackbar {
     align-items: center;
-    background-image: linear-gradient(to bottom,var(--green-200),var(--red-400));
+    background-image: linear-gradient(to bottom, var(--green-200), var(--red-400));
     display: flex;
     flex-wrap: wrap;
-    gap:var(--size-12);
-    justify-content: center ;
+    gap: var(--size-12);
+    justify-content: center;
     height: 5rem;
 }
+
 .snackbar {
     align-items: center;
-    background-image: linear-gradient(to right,var(--secondary-200),var(--secondary-100),var(--secondary-300));
+    background-image: linear-gradient(to right, var(--secondary-200), var(--secondary-100), var(--secondary-300));
     border-radius: 4px;
     box-sizing: border-box;
     display: flex;
@@ -18,6 +18,11 @@
     justify-content: center;
     padding: 0 8px 0 8px;
     width: 25rem;
+}
+
+.snackbar .cross-for-chips {
+    background-color: var(--secondary-100);
+    color: var(--primary-400);
 }
 
 .snackbar p {
@@ -34,10 +39,15 @@
     position: fixed;
     display: none;
 }
-.baseline.show, .leading.show, .stacked-baseline.show, .stacked-leading.show{
+
+.baseline.show,
+.leading.show,
+.stacked-baseline.show,
+.stacked-leading.show {
     display: flex;
     z-index: 100;
 }
+
 .leading {
     bottom: 0;
     left: 0;
@@ -52,45 +62,58 @@
     position: fixed;
     display: none;
 }
-.stacked-baseline p, .stacked-leading p{
-    margin-top:10px;
+
+.stacked-baseline p,
+.stacked-leading p {
+    margin-top: 10px;
 }
-.stacked-baseline .btn, .stacked-leading .btn {
+
+.stacked-baseline .btn,
+.stacked-leading .btn {
     padding: 0 var(--size-12);
 }
-.stacked-leading{
+
+.stacked-leading {
     flex-direction: column;
     height: 5rem;
     bottom: 0;
-    left:0;
+    left: 0;
     position: fixed;
     display: none;
 }
+
 .snackbar-stacked-items {
     align-self: flex-end;
     align-items: center;
     display: flex;
     justify-content: center;
 }
-@media screen and (max-width: 900px){
-   
-    .snackbar{
-        width:18rem;  
+
+@media screen and (max-width: 900px) {
+
+    .snackbar {
+        width: 18rem;
     }
-   
-    .eg-snackbar{
+
+    .eg-snackbar {
         height: 10rem;
     }
-    
+
 }
-@media screen and (max-width: 500px){
-    .stacked-baseline,.baseline{
+
+@media screen and (max-width: 500px) {
+
+    .stacked-baseline,
+    .baseline {
         transform: translateX(10%);
     }
-    .snackbar{
+
+    .snackbar {
         width: 15rem;
     }
-    .eg-snackbar{
+
+    .eg-snackbar {
         height: 14rem;
     }
 }
+
