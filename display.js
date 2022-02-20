@@ -104,4 +104,5 @@ openAsideMenu.addEventListener('click',()=>{
 //dark mode implemented
 document.querySelector('.dark.secondary-link').addEventListener('click',()=>{
     document.body.classList.toggle('dark');
+   
 })
