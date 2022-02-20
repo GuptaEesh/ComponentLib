@@ -101,4 +101,7 @@ openAsideMenu.addEventListener('click',()=>{
     document.querySelector('.eg-components').classList.toggle('hide');
 })
 
-
+//dark mode implemented
+document.querySelector('.dark.secondary-link').addEventListener('click',()=>{
+    document.body.classList.toggle('dark');
+})
