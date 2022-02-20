@@ -28,7 +28,7 @@
 
 .content-navs {
     border-top: 1px solid var(--primary-400);
-    color: var(--primary-400);
+    color: var(--white);
     display: flex;
     gap: var(--size-12);
 }

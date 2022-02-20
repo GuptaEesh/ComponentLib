@@ -101,8 +101,28 @@ openAsideMenu.addEventListener('click',()=>{
     document.querySelector('.eg-components').classList.toggle('hide');
 })
 
-//dark mode implemented
-document.querySelector('.dark.secondary-link').addEventListener('click',()=>{
-    document.body.classList.toggle('dark');
-   
-})
+//dark mode
+let mode = true;
+if (localStorage.getItem("site")) {
+  document.body.classList.add("dark");
+  document.querySelector('.dark .material-icons').innerText="wb_sunny";
+  document.querySelector('.dark .material-icons').style.color='var(--white)';
+  mode = false;
+}
+document.querySelector('.dark.secondary-link').addEventListener("click", () => {
+  if (mode) {
+    document.body.classList.add("dark");
+    document.querySelector('.dark .material-icons').innerText="wb_sunny";
+    document.querySelector('.dark .material-icons').style.color='var(--white)';
+    localStorage.setItem("site", "dark");
+  } 
+  else {
+    document.body.classList.remove("dark");
+    document.querySelector('.dark .material-icons').innerText="nights_stay";
+    document.querySelector('.dark .material-icons').style.color='black';
+    localStorage.removeItem("site");
+  }
+  mode = !mode;
+});
+
+
