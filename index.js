@@ -9,7 +9,7 @@ let btnPress=document.querySelector('.main-body .primary');
 // },4000);
 const landingPage=()=>{
     
- window.location.href="Attract-componentLib.html";
+ window.location.href="/docs/Attract-componentLib.html";
 };
 
 btnPress.addEventListener('click',landingPage);
