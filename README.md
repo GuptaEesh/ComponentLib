@@ -29,6 +29,18 @@ But I would advice you to:
 + use specificity
 - avoid !important
 ```
+###The Main Page(using glassmorphism):
+
+![cl1](https://user-images.githubusercontent.com/90090601/154922998-1d422b68-5877-4c62-89c6-c581dae45075.PNG)
+
+###The documentation page supports 2 modes:
+
+>Light mode
+![cl2](https://user-images.githubusercontent.com/90090601/154923245-0f9653b6-29eb-48d2-857b-41d333a15553.PNG)
+
+>Dark mode
+![cl3](https://user-images.githubusercontent.com/90090601/154923384-9a18818c-dd0e-49b5-8064-597e4f047db1.PNG)
+
 
 ### Creator:
 
