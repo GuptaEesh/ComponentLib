@@ -88,9 +88,8 @@ body {
 .right-headers a img:hover {
     background-color: transparent;
     cursor: pointer;
-    height: var(--size-20);
-    width: var(--size-20);
-    transition: all 200ms steps(16, end);
+    transform: translateY(-10%);
+    transition: all 200ms ease;
 }
 
 .logo-of-docs .secondary-link {
