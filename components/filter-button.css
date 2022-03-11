@@ -1,0 +1,34 @@
+
+.select-dot{
+    width: var(--size-08);
+    height: var(--size-08);
+    background-color: var(--primary-100);
+    border: 1px solid var(--primary-200);
+    margin-right: 10px;
+}
+.select-dot::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-image: radial-gradient(circle,transparent 15%,var(--secondary-300) 20%);
+    transform: scale(0);
+}
+
+/* Radio */
+
+.radio-dot{
+    border-radius: 50%;
+}
+.radio-dot::after{
+    border-radius: 50%;
+}
+.radio-input:checked+.select-dot::after{
+    transform: scale(1);
+}
+
+/* Checkbox */
+
+.checkbox-input:checked+.select-dot::after{
+    transform: scale(1);
+}
