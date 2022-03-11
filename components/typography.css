@@ -92,6 +92,10 @@
     color: var(--secondary-300);
 }
 
+.text-white{
+    color:var(--white);
+}
+
 @media all and (max-width:650px) {
     .eg-typo p {
         font-size: var(--size-12);
