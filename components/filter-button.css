@@ -1,4 +1,7 @@
-
+.checkbox-input,.radio-input{
+    display: none;
+  }
+  
 .select-dot{
     width: var(--size-08);
     height: var(--size-08);
