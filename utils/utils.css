@@ -6,7 +6,6 @@
   flex-direction: row;
 }
 
-
 .flex-column {
   flex-direction: column;
 }
@@ -50,3 +49,4 @@
 .align-space-evenly {
   align-items: space-evenly;
 }
+
